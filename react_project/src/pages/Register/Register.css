@@ -1,0 +1,16 @@
+.div-register{
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top:100px;
+}
+.Form-register{
+    border: 1px solid;
+    padding: 30px;
+}
+.Form-buton{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

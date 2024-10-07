@@ -1,0 +1,63 @@
+
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+
+}
+.div-form{
+    justify-content: center;
+    display: flex;
+    padding:180px 0;
+    padding-top: 120px;
+    padding-bottom: 250px;
+    
+
+}
+
+
+.form-login{
+
+    border: 1px solid;
+    padding: 30px 50px;
+
+}
+
+
+.button-form{
+
+    background-color: rgba(194, 172, 145, 0);
+   border: 2px solid rgb(68, 59, 44);
+   padding: 7px 50px;
+   font-size: 19px;
+
+}
+.button-form:active{
+   border: 2px solid rgb(68, 59, 44);
+   background-color: rgba(194, 172, 145, 0);
+
+    
+}
+.button-form:hover{
+    background-color:rgb(68, 59, 44) ;
+    color: aliceblue;
+}
+
+.div-button-form{
+    padding:30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.input-form-login, .input-form-password{
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgb(239, 231, 224);
+    /* background-position: 4px 10px;  */
+    background-repeat: no-repeat;
+    padding: 5px 10px;
+    font-size: 18px;
+}
